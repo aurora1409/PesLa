@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> PesLa </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../Base.css">
+    <link rel="stylesheet" href="../Main.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.min.css">
+    <script type="module" src="../Js/Item9.js"></script>
+    <script src="../Js/PesLaJS.js"></script>
+</head>
+
+<body>
+    <div class="FullPetsLa">
+        <!-- <div class="header" style="box-shadow: none;"> -->
+        <div class="header__navbar">
+            <div class="grid wide">
+                <div class="row" style="padding-top: 0;">
+                    <div class="col l-8 m-8 c-8" style="margin-bottom: 0px; margin-top: 12px;">
+                        <div class="header--left">
+                            <div class="header--item header--separate" style="padding-left: 0;">
+                                <a href="" class="header--item--icon header--separate--per">
+                                    <i class="fa-solid fa-envelope cart"></i>
+                                </a>
+                                <span class="text">pesla.vn@gmail.com</span>
+                            </div>
+                            <div class="header--item" style="padding-left: 24px;">
+                                <a href="" class="header--item--icon">
+                                    <i class="fa-solid fa-phone cart"></i>
+                                </a>
+                                <span class="text">0123 456 789</span>
+                            </div>
+                            <div class="navbar--image--page">
+                                <div class="row">
+                                    <div class="col c-7">
+                                        <div class="header--logo">
+                                            <img src="../Source Image/header-logo.png" alt="" class="header--logo--img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-4">
+                        <div class="header--right">
+                            <div class="header--item-r header--language"
+                                style="cursor: pointer; margin-left:0; margin-right: 0 ; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAGrCAMAAABnkNZ5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC61BMVEXaJR3cMhvndBPncxPzuwnzugnbLhz+9gH+9wHcLxzmbxP//wDmbhPztQrytQrbLBz99AH99QHbLRzmaRTlaRTysAryrwvbKRz98AL98QLbKhzlYxXkYxXxqgvwqgvaKB387QL87wLbKB3kXhXkXRXwpQzwpAzaJx376gP86gPjWRbjWBbvoA3vnw3aJh375QP75wPiUxfiUhfumg3umQ764QT64wThThjhTRjtlQ7tlA753AX52wXgRhngSBjskA/sjw/41wX41gXfQRnfQxnriw/rihD30gb30QbePRr//gDePxrqhRDqhBD2zAf2ywfdOhr//AD//QDeOxrpgBHpfxH1xwj1xgjdNRv+/ADdNxvpehLoehL1wQj0wQjcMxv++gH++wHcNBvndRL0uwn++AHcMBznbxPztgrmahTysQr98gLlZBXxqwv87gLkXxXwpgz86wPjWhbvoQ3iVBfumw3hTxftlg753gTgShjgSRjskQ/42AXfRBngRRnrjA/30wbePhrePxnqhhD2zQfqgBH2xwfdNhvpexL1wgjodRL0vAn++QHcMRvncBPztwr99gHmaxTysgriVRf75gPytArhTBjdORr1wwj2yAftkg7zuQn41Qb52gXhSxjbKxzwqAzkYBXlZhTdOBriURf64AT65ATjVxbfQBn3zgb40wb0vwn1xQjeOhrhURf53wTiVhfmbRPjXRb76AP87AL0vQn1xAjpfBH42QX88AL98wLnchPjWxbkYRXcLhz2ygf3zwb64gTyswrdNBvgRxjlZxTePBr30Ab53QXgSxjskg/52QXfRRnsjQ/sjA/41AbfQhnrhxDrhhD3zQfqghHqgRH2yQfpfRHodxLodhL0vgnncRPzuAnmbBTxrgvxrQvkYhXwqQvjXBbvowz76QPiVxbung3unQ3umA7tmA763wTtkw7sjg/riBDqgxDhUBfpfhHoeBLlaBTxrwvvpAzvng3lZRT0wAj///+E6NnJAAAAAWJLR0T4O2NnZgAAAAd0SU1FB+EICgIZFbtYUL8AAAqaSURBVHja7d17/NXz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);">
+                                <div class="header--item--m">Language</div>
+                            </div>
+                            <div class="header--item-r">
+                                <a href="" class="header--item--icon-r">
+                                    <i class="fa-solid fa-moon cart"></i>
+                                </a>
+                                <div class="header--item--m">Theme</div>
+                            </div>
+                            <div class="header--item-r" style="margin-right: 0; margin-left: 0;">
+                                <a href="" class="header--item--icon-r">
+                                    <i class="fa-solid fa-arrow-right-from-bracket header--exit cart"></i>
+                                </a>
+                                <div class="header--item--m">Login</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="grid wide">
+                <div class="row header__main--wrap">
+                    <div class="col l-3 m-3 c-0">
+                        <div class="header--logo">
+                            <img src="../Source Image/header-logo.png" alt="" class="header--logo--img">
+                        </div>
+                    </div>
+                    <div class="col l-9 m-9 c-12">
+                        <div class="row header--wrap">
+                            <div class="col l-10 m-10 c-12">
+                                <div class="header--search">
+                                    <div class="header--search--input">
+                                        <input type="text" class="header--search--input--ip"
+                                            placeholder="Everything here is better than you ex">
+                                    </div>
+                                    <button class="header--search--btn">
+                                        <i class="header--search--btn--icon fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-2 c-0">
+                                <div class="header--cart header--cart--wrap">
+                                    <i class="header--cart--icon fas fa-shopping-cart cart" onclick="showCart()"></i>
+                                    <div class="header--cart--head">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="grid wide l-12 m-12 c-0">
+                <ul class="row header--content">
+                    <li class="header--content--ep">Homepage</li>
+                    <li class="header--content--ep" style="color: rgb(230,150,70);">Shop</li>
+                    <li class="header--content--ep">Cart</li>
+                    <li class="header--content--ep">Contact</li>
+                    <li class="header--content--ep" style="margin-right: 10px;">Account</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom__for--mobile">
+            <div class="row">
+                <div class="col c-3">
+                    <div class="bottom--item">
+                        <i class="fas fa-home bottom--icon"></i>
+                        <div style="color: black; padding-top: 0.2rem;">Homepage</div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="bottom--item bottom--icon">
+                        <i class="fas fa-shopping-bag bottom--icon"></i>
+                        <div style="padding-top: 0.4rem;">Shop</div>
+                    </div>
+                </div>
+                <div class=" col c-3">
+                    <div class="bottom--item">
+                        <i class="fas fa-shopping-cart bottom--icon"></i>
+                        <div style="color: black; padding-top: 0.2rem;">Cart</div>
+                    </div>
+                </div>
+                <div class="col c-3">
+                    <div class="bottom--item">
+                        <i class="fas fa-user bottom--icon"></i>
+                        <div style="color: black; padding-top: 0.2rem;">Account</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container--product" style="background-color: white;">
+            <div class="grid wide">
+                <div class="row container--products-detail" style="margin-top: 24px;">
+                </div>
+            </div>
+        </div>
+        <div class="DOM">
+            <div class="opacity"></div>
+            <div class="opacity--click" onclick="disappearCart()"></div>
+            <div class="cartDOM">
+                <div class="cartDOM--wrap">
+                    <div class="cartDOM__header">
+                        <div class="DOM--header--title">Cart: 0 Item</div>
+                        <div class="DOM--header--close" onclick="disappearCart()">
+                            <i class="fa-solid fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="cartDOM__body">
+                        <img class="DOM--body--img" srcset="https://www.leoasher.dev/static/media/sadCat.2335333f.png"
+                            alt="">
+                        <h2 class="DOM--body--content">Message: No Product In Cart</h2>
+                    </div>
+                    <div class="cartDOM__footer">
+                        <div class="cartDOM__footer--check">Checkout (0đ)</div>
+                        <div class="cartDOM__footer--cart">View Cart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
